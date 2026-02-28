@@ -11956,44 +11956,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\taoxu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\IntegrationTests\\IntegrationTests.csproj",
+      "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/IntegrationTests/IntegrationTests.csproj",
       "projectName": "IntegrationTests",
-      "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\IntegrationTests\\IntegrationTests.csproj",
-      "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\IntegrationTests\\obj\\",
+      "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/IntegrationTests/IntegrationTests.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/IntegrationTests/obj/",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj"
             },
-            "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\UnitTests\\UnitTests.csproj": {
-              "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\UnitTests\\UnitTests.csproj"
+            "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/UnitTests/UnitTests.csproj": {
+              "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/UnitTests/UnitTests.csproj"
             }
           }
         }
@@ -12008,7 +12000,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -12112,12 +12104,22 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.23, 8.0.23]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

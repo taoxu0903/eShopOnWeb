@@ -1,41 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj": {}
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj"
               }
             }
           }
@@ -50,7 +43,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -145,47 +138,50 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorAdmin\\BlazorAdmin.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorAdmin\\BlazorAdmin.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj",
         "projectName": "BlazorAdmin",
-        "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorAdmin\\BlazorAdmin.csproj",
-        "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorAdmin\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj"
               }
             }
           }
@@ -200,7 +196,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -249,13 +245,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.24, )",
+              "version": "[8.0.23, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.13, )",
+              "version": "[10.0.2, )",
               "autoReferenced": true
             },
             "System.Net.Http.Json": {
@@ -329,8 +325,16 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.24, 8.0.24]"
+              "version": "[8.0.23, 8.0.23]"
             }
           ],
           "frameworkReferences": {
@@ -338,7 +342,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -347,30 +351,23 @@
         }
       }
     },
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj",
         "projectName": "BlazorShared",
-        "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj",
-        "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -389,7 +386,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -469,47 +466,50 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }
@@ -524,7 +524,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -619,50 +619,53 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj",
         "projectName": "PublicApi",
-        "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj",
-        "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\PublicApi\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj"
               },
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -677,7 +680,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -829,6 +832,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -837,51 +854,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Web\\Web.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Web\\Web.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Web\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\ApplicationCore\\ApplicationCore.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/ApplicationCore/ApplicationCore.csproj"
               },
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorAdmin\\BlazorAdmin.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorAdmin\\BlazorAdmin.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorAdmin/BlazorAdmin.csproj"
               },
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\BlazorShared\\BlazorShared.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/BlazorShared/BlazorShared.csproj"
               },
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Infrastructure\\Infrastructure.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -896,7 +906,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1053,6 +1063,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -1061,45 +1085,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj": {
+    "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj",
+        "projectUniqueName": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj",
         "projectName": "PublicApiIntegrationTests",
-        "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\PublicApiIntegrationTests.csproj",
-        "packagesPath": "C:\\Users\\taoxu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\tests\\PublicApiIntegrationTests\\obj\\",
+        "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/PublicApiIntegrationTests.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/tests/PublicApiIntegrationTests/obj/",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\taoxu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\PublicApi\\PublicApi.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/PublicApi/PublicApi.csproj"
               },
-              "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Web\\Web.csproj": {
-                "projectPath": "C:\\Users\\taoxu\\downloads\\git\\repos-to-modernize\\repos\\eShopOnWeb\\src\\Web\\Web.csproj"
+              "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj": {
+                "projectPath": "/home/runner/work/eShopOnWeb/eShopOnWeb/src/Web/Web.csproj"
               }
             }
           }
@@ -1114,7 +1131,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -1211,12 +1228,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.23, 8.0.23]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
