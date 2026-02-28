@@ -1,6 +1,0 @@
-C:/Users/taoxu/downloads/git/repos-to-modernize/repos/eShopOnWeb/tests/PublicApiIntegrationTests/obj/Debug/net8.0/PublicApiIntegrationTests.csproj.AssemblyReference.cache
-C:/Users/taoxu/downloads/git/repos-to-modernize/repos/eShopOnWeb/tests/PublicApiIntegrationTests/obj/Debug/net8.0/PublicApiIntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
-C:/Users/taoxu/downloads/git/repos-to-modernize/repos/eShopOnWeb/tests/PublicApiIntegrationTests/obj/Debug/net8.0/PublicApiIntegrationTests.AssemblyInfoInputs.cache
-C:/Users/taoxu/downloads/git/repos-to-modernize/repos/eShopOnWeb/tests/PublicApiIntegrationTests/obj/Debug/net8.0/PublicApiIntegrationTests.AssemblyInfo.cs
-C:/Users/taoxu/downloads/git/repos-to-modernize/repos/eShopOnWeb/tests/PublicApiIntegrationTests/obj/Debug/net8.0/PublicApiIntegrationTests.csproj.CoreCompileInputs.cache
-C:/Users/taoxu/downloads/git/repos-to-modernize/repos/eShopOnWeb/tests/PublicApiIntegrationTests/obj/Debug/net8.0/PublicApiIntegrationTests.sourcelink.json
